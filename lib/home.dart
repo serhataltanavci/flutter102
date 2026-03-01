@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter102/shared/styled_text.dart';
 // import 'package:flutter102/my_theme.dart';
 
 class Home extends StatefulWidget {
@@ -15,7 +16,14 @@ class _HomeState extends State<Home> {
       appBar: AppBar(title: const Text("Your Characters"), centerTitle: true),
       body: Container(
         padding: const EdgeInsets.all(16),
-        child: const Text("home"),
+        child: Column(
+          children: [
+            const StyledText("Character List"),
+            const StyleHeading("Character List"),
+            const StyledTitle("Character List"),
+            FilledButton(onPressed: () {}, child: const Text("Create New")),
+          ],
+        ),
       ),
     );
   }
