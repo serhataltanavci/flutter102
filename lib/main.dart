@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:flutter102/booring.dart';
 import 'package:flutter102/home.dart';
 import 'package:flutter102/my_theme.dart';
 
@@ -6,8 +7,9 @@ void main() {
   runApp(
     MaterialApp(
       home: const Home(),
-      // home:const Sandbox(),
+      // home: const Sandbox(),
       theme: primaryTheme,
+      // home: const Scaffold(body: Booring()),
     ),
   );
 }
@@ -17,9 +19,10 @@ void main() {
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(appBar: AppBar(
-//       title: const Text('i am a title'),
+//       title: const Text('Sandbox')
+        // backgroundColor:Colors.grey
 //     ),
-//     body: const Text("sanbox"),
+//     body: const Text("Text page"),
     
 //     );
 
