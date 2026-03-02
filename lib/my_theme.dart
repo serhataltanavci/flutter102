@@ -22,7 +22,6 @@ ThemeData primaryTheme = ThemeData(
   appBarTheme: AppBarTheme(
     backgroundColor: AppColors.secondaryColor,
     foregroundColor: AppColors.textColor,
-    surfaceTintColor: Colors.transparent,
     centerTitle: true,
   ),
 
@@ -44,5 +43,11 @@ ThemeData primaryTheme = ThemeData(
       fontWeight: FontWeight.bold,
       letterSpacing: 2,
     ),
+  ),
+  cardTheme: CardThemeData(
+    color: AppColors.secondaryColor.withValues(alpha: 0.5),
+    shape: RoundedRectangleBorder(),
+    // shadowColor: Colors.transparent,
+    margin: const EdgeInsets.only(bottom: 16),
   ),
 );

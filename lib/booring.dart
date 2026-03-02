@@ -80,7 +80,9 @@ class Booring extends StatelessWidget {
         ),
         Text(
           "surfaceVariant",
-          style: TextStyle(color: Theme.of(context).colorScheme.surfaceVariant),
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.surfaceContainerHighest,
+          ),
         ),
         Text(
           "onSurfaceVariant",
@@ -91,11 +93,11 @@ class Booring extends StatelessWidget {
 
         Text(
           "background",
-          style: TextStyle(color: Theme.of(context).colorScheme.background),
+          style: TextStyle(color: Theme.of(context).colorScheme.surface),
         ),
         Text(
           "onBackground",
-          style: TextStyle(color: Theme.of(context).colorScheme.onBackground),
+          style: TextStyle(color: Theme.of(context).colorScheme.onSurface),
         ),
 
         Text(
