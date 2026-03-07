@@ -42,10 +42,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
-
-// Container(          color: Colors.grey[800],
-//                     padding: const EdgeInsets.all(40),
-//                     margin: const EdgeInsets.only(bottom: 40),
-//                     child: Text(characters[index]),
-//                   );
